@@ -448,6 +448,16 @@ h1#header {
   color: #333333;
 }
 
+#teachers-remark {
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  margin: 10px 0px 39px 19px;
+  color: #4F4F4F;
+}
+
 hr#dashed {
   margin: 0px 28px;
   border:none;
@@ -476,6 +486,16 @@ hr#dashed {
   font-size: 14px;
   margin: 0px 0px 10px 31px;
   color: #333333;
+}
+
+.result-remark {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  color: #4F4F4F;
+  margin: 30px 0px 0px 19px;
 }
 
 .info-details-left-hr {
@@ -637,6 +657,87 @@ hr#vertical {
   border-radius: 4px;
 }
 
+#print-btn{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+
+  text-transform: capitalize;
+
+  color: #27A9F8;
+  padding: 11px 40px;
+  margin-right: 15px;
+  background: #FFFFFF;
+  border: 1px solid #27A9F8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+#send-btn{
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+  padding: 11px 40px;
+  margin-right: 19px;
+
+  background: #27A9F8;
+  border: 1px solid #27A9F8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.print-ico {
+  font-size: 16px
+}
+
+.text-right { 
+  text-align:right;
+  padding-right: 0px;
+ }
+
+.result-btn {
+  margin-top: 40px;
+  padding-right: 33px;
+}
+
+.result-btn ul {
+  display: flex; 
+  float: right; 
+  list-style: none;
+}
+
+.result-btn ul a {
+  background: #FFFFFF;
+  border: 1px solid #27A9F8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 13px;
+  margin-left: 6px;
+  float: right; 
+  line-height: normal;
+  font-size: 14px;
+
+  color: #27A9F8;
+  font-family: 'Lato', sans-serif;
+}
+
+.result-btn ul a.current-page {
+  color: #FFFFFF;
+  background: #27A9F8;
+}
+
+.result-btn ul a:hover {
+  color: #FFFFFF;
+  background: #27A9F8;
+}
+
 #result-sheet-header {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -644,6 +745,8 @@ hr#vertical {
   padding: 12px 0px 12px 60px;
   color: #000000;
 }
+
+
 
 /*h2 {
   line-height: 35px;

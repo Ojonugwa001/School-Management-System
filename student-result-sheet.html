@@ -12,7 +12,7 @@
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
         <!-- App css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -137,10 +137,6 @@
                         <h4 class="page-title" style="margin: 25px 25px 25px 35px">Students profile</h4>
                     </div>
                             
-
-                    <div class="col-md-6 add-btn" style="">
-                        <a href="#" ><span id="icon"><i class="mdi mdi-account-multiple-plus"></i></span>Add Student</a> 
-                    </div>
                 </div>
 
                 <div class="container-fluid">
@@ -148,7 +144,7 @@
                     
                     <!-- Student Profile Card -->
                     <div class="row">
-                        <div class="col-md-5" style="padding-right: 21px; padding-left: 35px;">
+                        <div class="col-md-5" id="student-profile-left">
                             <div class="card-profile-left">
                                 
                                 <div class="row">
@@ -251,11 +247,11 @@
                         </div>
 
                         <!-- Result Summary Card -->
-                        <div class="col-md-7">
-                            <div class="card-profile-right">
+                        <div class="col-md-7" id="student-profile-right">
+                            <div class="card-profile-right" id="tbl-spacing">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h4 class="students-name" id="result-summary-header">First term result sheet</h4>
+                                        <h4 class="students-name" id="result-summary-header" style="margin-bottom: 12px; margin-top: 19px;">First term result sheet</h4>
 
                                         <a href="#" id="edit-btn">Edit</a>
                                     </div>
@@ -350,6 +346,21 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    </div>
+                                </div>
+                                <!--  Table Row End-->
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 class="result-remark">1st position in the class of 45 student’s</h2>
+                                        <h3  id="teachers-remark">An execellent chemistry student, but needs to work hard on other subjects.</h3>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-12 text-right">
+                                        <a href="javascript:window.print()" id="print-btn"><i class="mdi mdi-printer print-ico"></i> Print</a>
+                                        <a href="#" id="send-btn">Send</a>
                                     </div>
                                 </div>
 

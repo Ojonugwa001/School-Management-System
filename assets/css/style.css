@@ -1612,7 +1612,13 @@ code {
   padding-bottom: 22px;
   border: 1px solid #F0F0F0;
   box-sizing: border-box;
-  border-radius: px;
+  width: 367px;
+  border-radius: 4px;
+}
+
+#student-profile-left{
+  padding-right: 21px; 
+  padding-left: 35px;
 }
 
 .card-profile-right {
@@ -1622,7 +1628,15 @@ code {
   padding-bottom: 22px;
   border: 1px solid #F0F0F0;
   box-sizing: border-box;
-  border-radius: px;
+  border-radius: 4px;
+}
+
+#tbl-spacing{
+  padding: 0px 19px 30px 19px;
+}
+
+#student-profile-right{
+  padding-left: 0px;
 }
 
 /* Card */
